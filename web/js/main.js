@@ -9,6 +9,7 @@
 /*scroll to top*/
 
 $(document).ready(function(){
+	$('.catalog').dcAccordion();
 	$(function () {
 		$.scrollUp({
 	        scrollName: 'scrollUp', // Element ID

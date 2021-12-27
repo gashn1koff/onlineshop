@@ -1,4 +1,11 @@
-<?php echo \app\components\MenuWidget::widget(['tpl' => 'select'])?>
+<?php
+
+use app\components\MenuWidget;
+
+?>
+<ul class="catalog">
+    <?php echo MenuWidget::widget(['tpl' => 'menu'])?>
+</ul>
 <section id="slider"><!--slider-->
     <div class="container">
         <div class="row">
